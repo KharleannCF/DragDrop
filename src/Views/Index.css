@@ -1,0 +1,39 @@
+.main-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 50%;
+	border: solid 1px #222;
+	padding: 3rem;
+}
+
+.circle {
+	border-radius: 50%;
+	background-color: blueviolet;
+	width: 5rem;
+	height: 5rem;
+}
+
+.square {
+	background-color: green;
+	width: 5rem;
+	height: 5rem;
+	transition: "position" 850ms ease-in-out;
+}
+
+.square:active {
+	opacity: 50%;
+}
+.circle:active {
+	opacity: 50%;
+}
+
+.column {
+	border: #002222 solid 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 20rem;
+	width: 20rem;
+}
